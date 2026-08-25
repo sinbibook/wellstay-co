@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <!-- 렌더 게이트: 매핑 전 placeholder/fallback 깜빡임 방지 (매핑 완료 시 페이드인) -->
+    <style>html.tpl-loading body{opacity:0}body{opacity:1;transition:opacity .3s ease}</style>
+    <script>document.documentElement.classList.add('tpl-loading');window.__tplReveal=function(){document.documentElement.classList.remove('tpl-loading');};setTimeout(function(){window.__tplReveal&&window.__tplReveal();},3000);</script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:,">
+    <title data-page-title>여수 웰스테이 스파 풀빌라 펜션 - 오시는길</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Preload critical resources -->
+    <link rel="preload" href="styles/theme.css" as="style">
+    <link rel="preload" href="styles/common.css" as="style">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/theme.css">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/directions.css" />
+    <!-- Open Graph Meta Tags for Social Media -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="여수 웰스테이 스파 풀빌라 펜션 - 오시는길" />
+  <meta property="og:description" content="여수 웰스테이 풀빌라에서 푸른 오션뷰를 감상하며 프라이빗 스파와 수영장, 개별바베큐까지 모두 누릴 수 있는 완벽한 힐링을 경험해보세요." />
+  <meta property="og:image" content="https://bookingplay-media.s3.amazonaws.com/item_images/2026/08/06/PINqG2zWlpY0.jpg" />
+  <meta property="og:url" content="https://wellstay.co.kr" />
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="여수 웰스테이 스파 풀빌라 펜션 - 오시는길" />
+  <meta name="twitter:description" content="여수 웰스테이 풀빌라에서 푸른 오션뷰를 감상하며 프라이빗 스파와 수영장, 개별바베큐까지 모두 누릴 수 있는 완벽한 힐링을 경험해보세요." />
+  <meta name="twitter:image" content="https://bookingplay-media.s3.amazonaws.com/item_images/2026/08/06/PINqG2zWlpY0.jpg" />
+  <meta name="naver-site-verification" content="0239f83da8f5be1cff2763bcc12b3e6b1cec786d" />
+  <meta name="google-site-verification" content="k4mEd7r04aMPYporPxdOEuIBimhFYuA9R5LzWCJyz4U" />
+</head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <!-- MAPPER: customFields.pages.directions.sections[0].hero.images[isSelected] -->
+        <div class="con01" data-aos="fade-up">
+          <div class="img swiper-container">
+            <div class="swiper-wrapper" data-directions-hero-slides></div>
+          </div>
+          <div class="tx1_1">오시는길</div>
+        </div>
+        <div class="con14 w1440">
+          <div class="conTitle" data-aos="fade-up">
+            <div class="tx1">TRAFFIC</div>
+            <div class="tx2">
+              <span class="bold spot">찾아오시는 길</span>
+            </div>
+          </div>
+          <!-- MAPPER: property.latitude, property.longitude, property.address -->
+          <div class="map_wrap" data-aos="fade-up">
+            <div class="map_inner">
+              <div id="kakao-map"></div>
+            </div>
+          </div>
+          <!-- MAPPER: property.address -->
+          <div class="address" data-aos="fade-up">
+            <div class="tx1">네비게이션 이용 시</div>
+            <div class="tx2">
+              도로명 주소 ｜
+              <!-- MAPPER: property.address -->
+              <span class="underline" data-directions-address></span>
+            </div>
+          </div>
+          <!-- MAPPER: customFields.pages.directions.sections[0].notice.title + description -->
+          <div class="address notice" data-aos="fade-up">
+            <div class="tx1" data-directions-notice-title></div>
+            <div class="tx2" data-directions-notice-description>
+              - 버스 이용시 : 00번 버스 이용<br>
+              - 자가 이용시 : 네비게이션에 주소를 검색하고 와주세요.
+            </div>
+          </div>
+        </div>
+        <div class="con4">
+          <div class="conTitle" data-aos="fade-up">
+            <div class="tx0">Make your Stay Even Better</div>
+            <!-- MAPPER: property.name (typing 섹션) -->
+            <div class="typing-container tx2">
+              <div class="typing-wrapper">
+                <div class="typing-line-wrapper">
+                  <div id="typing1" class="typing-line"></div>
+                  <div class="cursor" id="cursor1"></div>
+                </div>
+                <div class="typing-line-wrapper">
+                  <div id="typing2" class="typing-line bold spot"></div>
+                  <div class="cursor" id="cursor2"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- MAPPER: property.name + property.nameEn (con4 하단) -->
+          <div class="t0" data-aos="fade-up">
+            <span class="t1"></span>
+            <span class="bar">|</span>
+            <span class="t2"></span>
+          </div>
+          <a href="#!" data-booking-link class="btnBooking" data-aos="fade-up">
+            <div class="circle">
+              <img src="images/icon_plus_black.png" alt="" />
+              <div class=""><em class="black">BOOKING</em></div>
+              <div class="cover"><em class="white">BOOKING</em></div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- Kakao Map SDK -->
+    <script type="text/javascript" src="js/kakao-maps-sdk.js"></script>
+    <script src="js/preview-handler.js"></script>
+    <script src="js/image-helpers.js"></script>
+    <script src="js/data-mapper/core/base-mapper.js"></script>
+    <script src="js/data-mapper/pages/directions-mapper.js"></script>
+    <script src="js/data-mapper/pages/header-footer-mapper.js"></script>
+    <script src="js/header-footer-loader.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/pages/directions.js"></script>
+  </body>
+</html>
