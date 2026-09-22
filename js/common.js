@@ -10,7 +10,11 @@
 
   function initCommon() {
     // AOS
-    AOS.init({ once: true, duration: 2000 });
+    // ⚠️ 404.html 은 aos.js 를 싣지 않는다(오류 페이지라 등장 애니메이션이 불필요).
+    //    존재 검사 없이 호출하면 ReferenceError 로 이 아래 전체가 중단된다.
+    //    layout-map / nearby-attractions 가 비노출이면 404 로 리다이렉트되므로
+    //    그 두 페이지에서도 같은 에러가 났다.
+    if (window.AOS) AOS.init({ once: true, duration: 2000 });
 
     // 모바일 헤더 메뉴
     $(document).on('click', '.header .btnMenu', function () {
