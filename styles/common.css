@@ -494,6 +494,34 @@ body {
 }
 @media (max-width: 1440px) {
 }
+/* 네이버(socialLinks.blog)·인스타그램(socialLinks.instagram) — .right 맨 앞, 예약하기와는 .right gap 30px.
+   두 로고 모두 꽉 찬 타일이라 높이만 고정하고 폭은 비율대로(인스타 122x126). */
+.header .right .btnSocial {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header .btnSocial a,
+.header .menuSocial a {
+  display: block;
+  line-height: 0;
+}
+.header .right .btnSocial img { height: 26px; width: auto; }
+@media (max-width: 1440px) {
+  .header .right .btnSocial img { height: 22px; }
+}
+/* 479px 이하는 헤더 줄에 자리가 없어(375px 에서 여유 0px) 메뉴 패널 맨 아래(LOCATION 다음)로 옮긴다.
+   .menuSocial 은 nav.menu 안에 있어 1441px 이상 가로 메뉴에서는 반드시 숨겨야 한다. */
+.header .menu .menuSocial { display: none; }
+@media (max-width: 479px) {
+  .header .right .btnSocial { display: none; }
+  .header.active .menu .menuSocial {
+    display: flex;
+    gap: 12px;
+    padding: 30px 0 0;
+  }
+  .header .menu .menuSocial img { height: 30px; width: auto; }
+}
 
 /* ============================================================
    Footer
