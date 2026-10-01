@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.6.0",
-    "generatedAt": "2026-10-01T09:37:45.698298125Z",
+    "version": "1.7.0",
+    "generatedAt": "2026-10-01T09:38:27.567143941Z",
     "templateType": "trip_c",
     "propertyId": "49ccd549-3472-430b-adf6-f417ff284f70",
     "homepageId": "2f3283a0-7121-43da-ac94-936713e95aa7"
@@ -2370,12 +2370,17 @@
               "enabled": true
             }
           ]
+        },
+        "landing": {
+          "sections": [ ]
         }
       },
       "popup": {
         "popups": [
           {
             "id": "661c4a37-6ce3-493f-8b03-a7ced2918d3d",
+            "link": "",
+            "title": "",
             "images": [
               {
                 "id": "ad276808-6ca2-45bc-b2e5-4d8af5d75ebd",
@@ -2392,15 +2397,18 @@
             "sortOrder": 0,
             "startDate": null,
             "usageType": "homepage",
+            "description": "",
             "unlimitedPeriod": true
           },
           {
             "id": "4054774b-6386-4c71-8638-aa11d473562e",
+            "link": "",
+            "title": "",
             "images": [
               {
                 "id": "01a0c6b7-22ac-7c81-befa-3ed636ab6340",
                 "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/2f3283a0-7121-43da-ac94-936713e95aa7/popup/1790040284878-8n1hqrfs73.webp",
-                "sortOrder": 0,
+                "sortOrder": 1,
                 "description": "",
                 "isSelected": true,
                 "blockId": "4054774b-6386-4c71-8638-aa11d473562e"
@@ -2412,6 +2420,7 @@
             "sortOrder": 1,
             "startDate": null,
             "usageType": "homepage",
+            "description": "",
             "unlimitedPeriod": true
           }
         ]
