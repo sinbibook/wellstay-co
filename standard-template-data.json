@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.11.0",
-    "generatedAt": "2026-10-12T01:53:34.088545186Z",
+    "version": "1.12.0",
+    "generatedAt": "2026-10-20T14:45:47.971866790Z",
     "templateType": "trip_c",
     "propertyId": "49ccd549-3472-430b-adf6-f417ff284f70",
     "homepageId": "2f3283a0-7121-43da-ac94-936713e95aa7"
@@ -1771,113 +1771,73 @@
                 "title": "",
                 "images": [
                   {
-                    "id": "0656f404-2536-4a88-bcbb-1b867526ae63",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/2f3283a0-7121-43da-ac94-936713e95aa7/index_hero/1787543064501-7udqktvebm.jpg",
+                    "id": "01a159c6-8783-7bdd-9f99-031dc4bd5b44",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/2f3283a0-7121-43da-ac94-936713e95aa7/index_hero/1792507544254-aca5l1b83e.jpg",
                     "sortOrder": 0,
                     "description": "",
                     "isSelected": true,
                     "blockId": null
                   },
                   {
-                    "id": "8b04ef18-e883-4c26-87ea-991fa934d0c9",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/2f3283a0-7121-43da-ac94-936713e95aa7/index_hero/1787543064780-ths1fpk7xj.jpg",
+                    "id": "01a159c6-868b-73d5-87e2-cc8c90ec87f9",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/2f3283a0-7121-43da-ac94-936713e95aa7/index_hero/1792507544250-42d023njjf.jpg",
                     "sortOrder": 1,
                     "description": "",
                     "isSelected": true,
                     "blockId": null
                   },
                   {
-                    "id": "44c72f88-5bfa-4e04-95e8-51370cc16676",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/2f3283a0-7121-43da-ac94-936713e95aa7/index_hero/1787543064779-c29or53h0x.jpg",
+                    "id": "01a159c6-871d-772d-87e7-f57e5551065f",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/2f3283a0-7121-43da-ac94-936713e95aa7/index_hero/1792507544258-pa5js40u4p.jpg",
                     "sortOrder": 2,
                     "description": "",
                     "isSelected": true,
                     "blockId": null
                   },
                   {
-                    "id": "03d29407-6cc9-4974-87dc-563e6a668790",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/2f3283a0-7121-43da-ac94-936713e95aa7/index_hero/1787543064777-uj5btzu7fb.jpg",
+                    "id": "01a159c6-8710-7de4-8397-732b4786adad",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/2f3283a0-7121-43da-ac94-936713e95aa7/index_hero/1792507544289-qzcmqwmoob.jpg",
                     "sortOrder": 3,
                     "description": "",
                     "isSelected": true,
                     "blockId": null
                   },
                   {
-                    "id": "6d877cec-786d-4e64-b52f-fb9327bf41fa",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/2f3283a0-7121-43da-ac94-936713e95aa7/index_hero/1787543064778-szl63smzl4.jpg",
+                    "id": "01a159c6-8681-71fe-a372-0aeb8361f818",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/2f3283a0-7121-43da-ac94-936713e95aa7/index_hero/1792507544281-bcq6vfzy59.jpg",
                     "sortOrder": 4,
                     "description": "",
                     "isSelected": true,
                     "blockId": null
                   },
                   {
-                    "id": "e55c173c-ae17-4cd4-80ba-28b44b10f081",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/2f3283a0-7121-43da-ac94-936713e95aa7/index_hero/1787543065133-i2o98fzvmx.jpg",
+                    "id": "01a159c6-86b6-778d-9165-c9891adb2146",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/2f3283a0-7121-43da-ac94-936713e95aa7/index_hero/1792507544290-mq25kensbb.jpg",
                     "sortOrder": 5,
                     "description": "",
                     "isSelected": true,
                     "blockId": null
                   },
                   {
-                    "id": "47d696b7-cbd7-4b79-a2e9-e8f4f3335127",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/2f3283a0-7121-43da-ac94-936713e95aa7/index_hero/1787543065449-edwnm71loe.jpg",
+                    "id": "01a159c6-8775-78e4-b69e-b6710262c32a",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/2f3283a0-7121-43da-ac94-936713e95aa7/index_hero/1792507544279-sg7piavm0j.jpg",
                     "sortOrder": 6,
                     "description": "",
                     "isSelected": true,
                     "blockId": null
                   },
                   {
-                    "id": "f63cf34a-aea6-4377-9483-000ccebf0635",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/2f3283a0-7121-43da-ac94-936713e95aa7/index_hero/1787543065463-w19idvaukl.jpg",
+                    "id": "01a159c6-8784-74c1-a32b-cc302ed2e7a1",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/2f3283a0-7121-43da-ac94-936713e95aa7/index_hero/1792507544277-gouw1q5tfk.jpg",
                     "sortOrder": 7,
                     "description": "",
                     "isSelected": true,
                     "blockId": null
                   },
                   {
-                    "id": "7773f694-a2a7-4cc3-9f41-3026f9e4b107",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/2f3283a0-7121-43da-ac94-936713e95aa7/index_hero/1787543065487-9thtq2m3r6.jpg",
+                    "id": "01a159c6-8732-76da-a976-4d2e03b30c58",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/2f3283a0-7121-43da-ac94-936713e95aa7/index_hero/1792507544285-syy5o7reuf.jpg",
                     "sortOrder": 8,
-                    "description": "",
-                    "isSelected": true,
-                    "blockId": null
-                  },
-                  {
-                    "id": "719db4ea-0c8a-4ac4-ad12-a318d7a8ab7d",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/2f3283a0-7121-43da-ac94-936713e95aa7/index_hero/1787543065562-su8jm530jb.jpg",
-                    "sortOrder": 9,
-                    "description": "",
-                    "isSelected": true,
-                    "blockId": null
-                  },
-                  {
-                    "id": "7d83f4ae-859f-4b2d-964b-ae230bc53dca",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/2f3283a0-7121-43da-ac94-936713e95aa7/index_hero/1787543065516-7dvcamzyys.jpg",
-                    "sortOrder": 10,
-                    "description": "",
-                    "isSelected": true,
-                    "blockId": null
-                  },
-                  {
-                    "id": "544902aa-455d-49a4-850a-61b16f3587ef",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/2f3283a0-7121-43da-ac94-936713e95aa7/index_hero/1787543065742-ogodz00rvl.jpg",
-                    "sortOrder": 11,
-                    "description": "",
-                    "isSelected": true,
-                    "blockId": null
-                  },
-                  {
-                    "id": "9967cd71-6028-42e6-9a50-7688b29c7a8e",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/2f3283a0-7121-43da-ac94-936713e95aa7/index_hero/1787543065861-glecdsmirl.jpg",
-                    "sortOrder": 12,
-                    "description": "",
-                    "isSelected": true,
-                    "blockId": null
-                  },
-                  {
-                    "id": "5904d797-457f-4be8-bcaf-a9bf478f4c06",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/2f3283a0-7121-43da-ac94-936713e95aa7/index_hero/1787543066146-f0g8v79e05.jpg",
-                    "sortOrder": 13,
                     "description": "",
                     "isSelected": true,
                     "blockId": null
@@ -2392,6 +2352,7 @@
               }
             ],
             "slider": false,
+            "videos": [ ],
             "enabled": true,
             "endDate": null,
             "sortOrder": 0,
@@ -2415,6 +2376,7 @@
               }
             ],
             "slider": false,
+            "videos": [ ],
             "enabled": true,
             "endDate": null,
             "sortOrder": 1,
@@ -3686,7 +3648,10 @@
           ],
           "nameEn": ""
         }
-      ]
+      ],
+      "footer": {
+        "ruralStayMark": null
+      }
     }
   }
 }
